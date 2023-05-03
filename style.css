@@ -1,0 +1,94 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/background.gif");
+    min-height: 100vh;
+}
+
+#menuBar {
+    display: flex;
+    flex-direction: center;     
+    justify-content: center;    /* horizontal */
+    align-items: center;        /* verical */
+    background-color: rgb(87, 174, 253);
+    height: 100px;
+    width: 75%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+#logo {
+    cursor: pointer;
+    height: 100%;
+}
+
+#logoButton {
+    height: 100px;
+}
+
+
+#button {
+    display: flex;
+    flex-direction: center;     
+    justify-content: center;    /* horizontal */
+    align-items: center;        /* verical */
+    color:rgb(102, 102, 102);
+    background-color: rgb(87, 174, 253);
+    height: 100%;
+    width: 120px;
+ /*   margin: 10px;
+    border-radius: 5px;
+    border-color: black;
+    border-width: 1px; */
+    border-style: hidden; 
+    cursor: pointer;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI';
+    font: optional;
+
+    
+}
+#button:hover {
+    background-color: rgb(67, 154, 233);
+}
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: center;     
+    justify-content: center;    /* horizontal */
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-image: url("background.jpg");
+    background-color: #cccccc;
+
+    width: 75%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+example.container {   
+    height: 100px;
+}
+full.container {
+    width: 100%;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+
